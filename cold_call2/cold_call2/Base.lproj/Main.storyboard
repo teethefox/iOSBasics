@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="cold_call2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkH-BM-dDu">
+                                <rect key="frame" x="0.0" y="237" width="667" height="47"/>
+                                <color key="backgroundColor" red="0.64443005181347157" green="0.39272035548466683" blue="0.54960911015382363" alpha="0.74447073063380287" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Cold Call"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LWT-fD-kC4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Drr-iq-uCA">
+                                <rect key="frame" x="173" y="148.5" width="321" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y'all ready?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuZ-di-DTW">
+                                <rect key="frame" x="85" y="22" width="497" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hkH-BM-dDu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5KR-yQ-pnS"/>
+                            <constraint firstItem="hkH-BM-dDu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5h7-cF-OA8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hkH-BM-dDu" secondAttribute="bottom" constant="91" id="8EC-DP-V8L"/>
+                            <constraint firstItem="hkH-BM-dDu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9ZQ-Ps-vbH"/>
+                            <constraint firstItem="Drr-iq-uCA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Asd-bh-Q7h"/>
+                            <constraint firstItem="iuZ-di-DTW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Ced-bm-gmr"/>
+                            <constraint firstItem="Drr-iq-uCA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U3p-HM-3u9"/>
+                            <constraint firstItem="iuZ-di-DTW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="Uey-Ey-QOd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Drr-iq-uCA" secondAttribute="trailing" constant="173" id="WFw-y1-Yll"/>
+                            <constraint firstItem="Drr-iq-uCA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wp2-VX-diE"/>
+                            <constraint firstItem="Drr-iq-uCA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="173" id="YRS-db-QFy"/>
+                            <constraint firstItem="Drr-iq-uCA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aGe-XX-JvL"/>
+                            <constraint firstItem="iuZ-di-DTW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="crR-N2-hPG"/>
+                            <constraint firstItem="iuZ-di-DTW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gww-dm-38o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iuZ-di-DTW" secondAttribute="trailing" constant="85" id="hxj-7U-hwi"/>
+                            <constraint firstItem="hkH-BM-dDu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yI2-rr-QO2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="name" destination="iuZ-di-DTW" id="yzC-FA-54Y"/>
+                        <outlet property="number" destination="Drr-iq-uCA" id="KrJ-Xj-Mnj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
