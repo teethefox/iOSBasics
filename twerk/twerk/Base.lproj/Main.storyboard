@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twerk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vwP-go-9R3">
+                                <rect key="frame" x="0.0" y="-4" width="375" height="671"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coc-8J-PF5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="629"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <state key="normal" title="TWERK IT">
+                                            <color key="titleShadowColor" red="0.64443005180000001" green="0.2505778957" blue="0.54161123430000002" alpha="0.74447073060000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="stopit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atS-MY-B4Q"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLd-ep-GV9">
+                                        <rect key="frame" x="0.0" y="629" width="375" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" red="0.2778652036" green="0.058256671330000002" blue="0.64443005180000001" alpha="0.74447073060000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="OLd-ep-GV9" secondAttribute="bottom" id="GIf-Xw-kiH"/>
+                                    <constraint firstAttribute="trailing" secondItem="coc-8J-PF5" secondAttribute="trailing" id="Khq-oA-6h1"/>
+                                    <constraint firstAttribute="trailing" secondItem="OLd-ep-GV9" secondAttribute="trailing" id="W3o-5E-9Iy"/>
+                                    <constraint firstItem="OLd-ep-GV9" firstAttribute="top" secondItem="coc-8J-PF5" secondAttribute="bottom" id="iTx-wY-OI3"/>
+                                    <constraint firstItem="OLd-ep-GV9" firstAttribute="leading" secondItem="vwP-go-9R3" secondAttribute="leading" id="inQ-TQ-F2c"/>
+                                    <constraint firstItem="OLd-ep-GV9" firstAttribute="top" secondItem="coc-8J-PF5" secondAttribute="bottom" id="ral-gA-wwJ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vwP-go-9R3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9is-YE-zxm"/>
+                            <constraint firstItem="vwP-go-9R3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Hrx-j0-QZk"/>
+                            <constraint firstItem="vwP-go-9R3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-4" id="gKG-iD-S8C"/>
+                            <constraint firstItem="vwP-go-9R3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vwI-PY-Vpi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="coc-8J-PF5" id="6d4-5e-pUU"/>
+                        <outlet property="counter" destination="OLd-ep-GV9" id="wKa-FI-dre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CEF074D1FAC129E0011785E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF074C1FAC129E0011785E /* AppDelegate.swift */; };
+		8CEF074F1FAC129E0011785E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF074E1FAC129E0011785E /* ViewController.swift */; };
+		8CEF07521FAC129E0011785E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF07501FAC129E0011785E /* Main.storyboard */; };
+		8CEF07541FAC129E0011785E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF07531FAC129E0011785E /* Assets.xcassets */; };
+		8CEF07571FAC129E0011785E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF07551FAC129E0011785E /* LaunchScreen.storyboard */; };
+		8CEF07621FAC129E0011785E /* twerkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF07611FAC129E0011785E /* twerkTests.swift */; };
+		8CEF076D1FAC129E0011785E /* twerkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEF076C1FAC129E0011785E /* twerkUITests.swift */; };
+		8CEF077B1FACE6480011785E /* Beyonce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF077A1FACE6480011785E /* Beyonce.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CEF075E1FAC129E0011785E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEF07411FAC129E0011785E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEF07481FAC129E0011785E;
+			remoteInfo = twerk;
+		};
+		8CEF07691FAC129E0011785E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CEF07411FAC129E0011785E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEF07481FAC129E0011785E;
+			remoteInfo = twerk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CEF07491FAC129E0011785E /* twerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twerk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF074C1FAC129E0011785E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CEF074E1FAC129E0011785E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CEF07511FAC129E0011785E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CEF07531FAC129E0011785E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CEF07561FAC129E0011785E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CEF07581FAC129E0011785E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEF075D1FAC129E0011785E /* twerkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twerkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF07611FAC129E0011785E /* twerkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twerkTests.swift; sourceTree = "<group>"; };
+		8CEF07631FAC129E0011785E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEF07681FAC129E0011785E /* twerkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twerkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF076C1FAC129E0011785E /* twerkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twerkUITests.swift; sourceTree = "<group>"; };
+		8CEF076E1FAC129E0011785E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEF077A1FACE6480011785E /* Beyonce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Beyonce.mp3; path = ../../../../../Downloads/Beyonce.mp3; sourceTree = "<group>"; };
+		8CEF077C1FACE8B90011785E /* Beyonce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beyonce.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CEF07461FAC129E0011785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF075A1FAC129E0011785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF07651FAC129E0011785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CEF07401FAC129E0011785E = {
+			isa = PBXGroup;
+			children = (
+				8CEF077A1FACE6480011785E /* Beyonce.mp3 */,
+				8CEF074B1FAC129E0011785E /* twerk */,
+				8CEF07601FAC129E0011785E /* twerkTests */,
+				8CEF076B1FAC129E0011785E /* twerkUITests */,
+				8CEF074A1FAC129E0011785E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CEF074A1FAC129E0011785E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF07491FAC129E0011785E /* twerk.app */,
+				8CEF075D1FAC129E0011785E /* twerkTests.xctest */,
+				8CEF07681FAC129E0011785E /* twerkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CEF074B1FAC129E0011785E /* twerk */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF077C1FACE8B90011785E /* Beyonce.mp3 */,
+				8CEF074C1FAC129E0011785E /* AppDelegate.swift */,
+				8CEF074E1FAC129E0011785E /* ViewController.swift */,
+				8CEF07501FAC129E0011785E /* Main.storyboard */,
+				8CEF07531FAC129E0011785E /* Assets.xcassets */,
+				8CEF07551FAC129E0011785E /* LaunchScreen.storyboard */,
+				8CEF07581FAC129E0011785E /* Info.plist */,
+			);
+			path = twerk;
+			sourceTree = "<group>";
+		};
+		8CEF07601FAC129E0011785E /* twerkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF07611FAC129E0011785E /* twerkTests.swift */,
+				8CEF07631FAC129E0011785E /* Info.plist */,
+			);
+			path = twerkTests;
+			sourceTree = "<group>";
+		};
+		8CEF076B1FAC129E0011785E /* twerkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF076C1FAC129E0011785E /* twerkUITests.swift */,
+				8CEF076E1FAC129E0011785E /* Info.plist */,
+			);
+			path = twerkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CEF07481FAC129E0011785E /* twerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEF07711FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerk" */;
+			buildPhases = (
+				8CEF07451FAC129E0011785E /* Sources */,
+				8CEF07461FAC129E0011785E /* Frameworks */,
+				8CEF07471FAC129E0011785E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twerk;
+			productName = twerk;
+			productReference = 8CEF07491FAC129E0011785E /* twerk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CEF075C1FAC129E0011785E /* twerkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEF07741FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerkTests" */;
+			buildPhases = (
+				8CEF07591FAC129E0011785E /* Sources */,
+				8CEF075A1FAC129E0011785E /* Frameworks */,
+				8CEF075B1FAC129E0011785E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CEF075F1FAC129E0011785E /* PBXTargetDependency */,
+			);
+			name = twerkTests;
+			productName = twerkTests;
+			productReference = 8CEF075D1FAC129E0011785E /* twerkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CEF07671FAC129E0011785E /* twerkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEF07771FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerkUITests" */;
+			buildPhases = (
+				8CEF07641FAC129E0011785E /* Sources */,
+				8CEF07651FAC129E0011785E /* Frameworks */,
+				8CEF07661FAC129E0011785E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CEF076A1FAC129E0011785E /* PBXTargetDependency */,
+			);
+			name = twerkUITests;
+			productName = twerkUITests;
+			productReference = 8CEF07681FAC129E0011785E /* twerkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CEF07411FAC129E0011785E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tiffani Fox";
+				TargetAttributes = {
+					8CEF07481FAC129E0011785E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8CEF075C1FAC129E0011785E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CEF07481FAC129E0011785E;
+					};
+					8CEF07671FAC129E0011785E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CEF07481FAC129E0011785E;
+					};
+				};
+			};
+			buildConfigurationList = 8CEF07441FAC129E0011785E /* Build configuration list for PBXProject "twerk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CEF07401FAC129E0011785E;
+			productRefGroup = 8CEF074A1FAC129E0011785E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CEF07481FAC129E0011785E /* twerk */,
+				8CEF075C1FAC129E0011785E /* twerkTests */,
+				8CEF07671FAC129E0011785E /* twerkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CEF07471FAC129E0011785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEF07571FAC129E0011785E /* LaunchScreen.storyboard in Resources */,
+				8CEF07541FAC129E0011785E /* Assets.xcassets in Resources */,
+				8CEF077B1FACE6480011785E /* Beyonce.mp3 in Resources */,
+				8CEF07521FAC129E0011785E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF075B1FAC129E0011785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF07661FAC129E0011785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CEF07451FAC129E0011785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEF074F1FAC129E0011785E /* ViewController.swift in Sources */,
+				8CEF074D1FAC129E0011785E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF07591FAC129E0011785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEF07621FAC129E0011785E /* twerkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEF07641FAC129E0011785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEF076D1FAC129E0011785E /* twerkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CEF075F1FAC129E0011785E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEF07481FAC129E0011785E /* twerk */;
+			targetProxy = 8CEF075E1FAC129E0011785E /* PBXContainerItemProxy */;
+		};
+		8CEF076A1FAC129E0011785E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CEF07481FAC129E0011785E /* twerk */;
+			targetProxy = 8CEF07691FAC129E0011785E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CEF07501FAC129E0011785E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CEF07511FAC129E0011785E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CEF07551FAC129E0011785E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CEF07561FAC129E0011785E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CEF076F1FAC129E0011785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CEF07701FAC129E0011785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CEF07721FAC129E0011785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8THA36VJ2L;
+				INFOPLIST_FILE = twerk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CEF07731FAC129E0011785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8THA36VJ2L;
+				INFOPLIST_FILE = twerk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CEF07751FAC129E0011785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twerkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twerk.app/twerk";
+			};
+			name = Debug;
+		};
+		8CEF07761FAC129E0011785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twerkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twerk.app/twerk";
+			};
+			name = Release;
+		};
+		8CEF07781FAC129E0011785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twerkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twerk;
+			};
+			name = Debug;
+		};
+		8CEF07791FAC129E0011785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = twerkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.twerkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = twerk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CEF07441FAC129E0011785E /* Build configuration list for PBXProject "twerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEF076F1FAC129E0011785E /* Debug */,
+				8CEF07701FAC129E0011785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEF07711FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEF07721FAC129E0011785E /* Debug */,
+				8CEF07731FAC129E0011785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEF07741FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEF07751FAC129E0011785E /* Debug */,
+				8CEF07761FAC129E0011785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEF07771FAC129E0011785E /* Build configuration list for PBXNativeTarget "twerkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEF07781FAC129E0011785E /* Debug */,
+				8CEF07791FAC129E0011785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CEF07411FAC129E0011785E /* Project object */;
+}
