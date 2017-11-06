@@ -24,7 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxb-HQ-Qg3">
-                                                <rect key="frame" x="0.0" y="0.0" width="185" height="96.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="96.5"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <state key="normal">
                                                     <color key="titleShadowColor" red="0.64443005181347157" green="0.2464930787833492" blue="0.21855139503782006" alpha="0.74447073063380287" colorSpace="custom" customColorSpace="displayP3"/>
@@ -34,10 +34,10 @@
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0ur-PJ-HZQ">
-                                                <rect key="frame" x="190" y="0.0" width="185" height="96.5"/>
+                                                <rect key="frame" x="126.5" y="0.0" width="122" height="96.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4F-UH-NBa">
-                                                        <rect key="frame" x="0.0" y="0.0" width="185" height="96.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="122" height="96.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <connections>
                                                             <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pb8-Ak-c9K"/>
@@ -45,6 +45,13 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5r-dt-rvg">
+                                                <rect key="frame" x="253.5" y="0.0" width="121.5" height="96.5"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <connections>
+                                                    <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W4h-3g-bxr"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QUm-KK-dgy">
@@ -185,6 +192,7 @@
                         <outlet property="reset" destination="GYa-wA-o8I" id="cOh-TN-kVi"/>
                         <outlet property="seven" destination="03R-mk-VwL" id="Cf4-mh-XKI"/>
                         <outlet property="six" destination="afU-7G-VrP" id="w75-3P-ev4"/>
+                        <outlet property="three" destination="i5r-dt-rvg" id="wPA-8T-79x"/>
                         <outlet property="two" destination="k4F-UH-NBa" id="eRl-ms-5os"/>
                         <outlet property="winner" destination="sAj-zg-CfH" id="FIZ-Tx-RxW"/>
                     </connections>

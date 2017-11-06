@@ -10,9 +10,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var six: UIButton!
     @IBOutlet weak var five: UIButton!
     @IBOutlet weak var four: UIButton!
-    @IBOutlet weak var three: UIButton!
     @IBOutlet weak var two: UIButton!
     @IBOutlet weak var one: UIButton!
+    @IBOutlet weak var three: UIButton!
     var check = false
     @IBOutlet weak var winner: UILabel!
     
@@ -41,6 +41,7 @@ class ViewController: UIViewController {
 
     }
     @IBAction func three(_ sender: UIButton) {
+  
         if check == false{
             three.backgroundColor = UIColor.red
             check = true
@@ -143,7 +144,7 @@ class ViewController: UIViewController {
 
     }
     func updateUI() {
-        if one.backgroundColor ==  two.backgroundColor  && one.backgroundColor == three.backgroundColor && one.backgroundColor == UIColor.blue {
+        if one.backgroundColor == two.backgroundColor  && one.backgroundColor == three.backgroundColor && one.backgroundColor == UIColor.blue {
             winner.isHidden = false
             winner.text = "Congrats blue is the winner!"
         } else if one.backgroundColor ==  four.backgroundColor && one.backgroundColor == seven.backgroundColor && one.backgroundColor ==  UIColor.blue {
@@ -158,7 +159,6 @@ class ViewController: UIViewController {
         }
         else if one.backgroundColor ==  two.backgroundColor && one.backgroundColor == three.backgroundColor && one.backgroundColor == UIColor.red {
             winner.isHidden = false
-
             winner.text = "Congrats red is the winner!"
         } else if one.backgroundColor == UIColor.red && four.backgroundColor == UIColor.red && seven.backgroundColor == UIColor.red {
             winner.isHidden = false
