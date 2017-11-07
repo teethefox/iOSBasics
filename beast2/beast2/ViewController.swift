@@ -18,11 +18,6 @@ class ViewController: UIViewController, UITableViewDelegate {
         tableView.reloadData()
 
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Section: \(indexPath.section) and Row: \(indexPath.row)")
-        tasks.remove(at: indexPath.row)
-        tableView.reloadData()
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
